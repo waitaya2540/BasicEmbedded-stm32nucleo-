@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"tim_currentimet01\startup_stm32f411xe.o"
+"tim_currentimet01\main.o"
+"tim_currentimet01\stm32f4xx_it.o"
+"tim_currentimet01\stm32f4xx_hal_msp.o"
+"tim_currentimet01\system_stm32f4xx.o"
+"tim_currentimet01\stm32f4xx_hal_pwr.o"
+"tim_currentimet01\stm32f4xx_hal_cortex.o"
+"tim_currentimet01\stm32f4xx_hal_flash_ex.o"
+"tim_currentimet01\stm32f4xx_hal.o"
+"tim_currentimet01\stm32f4xx_hal_tim_ex.o"
+"tim_currentimet01\stm32f4xx_hal_flash_ramfunc.o"
+"tim_currentimet01\stm32f4xx_hal_dma.o"
+"tim_currentimet01\stm32f4xx_hal_uart.o"
+"tim_currentimet01\stm32f4xx_hal_rcc.o"
+"tim_currentimet01\stm32f4xx_hal_gpio.o"
+"tim_currentimet01\stm32f4xx_hal_rcc_ex.o"
+"tim_currentimet01\stm32f4xx_hal_tim.o"
+"tim_currentimet01\stm32f4xx_hal_pwr_ex.o"
+"tim_currentimet01\stm32f4xx_hal_flash.o"
+"tim_currentimet01\stm32f4xx_hal_dma_ex.o"
+--library_type=microlib --strict --scatter "TIM_CurrenTimet01\TIM_CurrenTimet01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIM_CurrenTimet01.map" -o TIM_CurrenTimet01\TIM_CurrenTimet01.axf
